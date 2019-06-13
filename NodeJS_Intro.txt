@@ -1,0 +1,21 @@
+In your own words highlight the differences in functionality and purposes Client-Side and Server-Side code serves in a full-stack web application.
+Client Side code is front end code and runs on the "client's" computer (the client being the developer in our case). We render the page in the client side and it runs in a browser process. We interface with HTML and the DOM.
+
+Server side code is back end code and in this circumstance we will run it through the framework Node.js.  As opposed to client side, server side does not render anything. This method has a greater separation with the HTML/DOM since we don't actually interface with it. 
+
+I see client side as advantageous when we want to make many small edits and see how it will perform/look quickly. 
+We would likely prefer to use server side since the strain will then be on the server and not on our user's potentially underpowered or otherwise limited devices.
+
+What explains Nodes' rise in popularity and use? What does "Isomorphic JavaScript programming" mean? Provide some real-world examples not listed in this checkpoint of companies using Node.js.
+
+Node is popular because:
+It uses Javascript for both front end and back end, which takes advantage of Javascript's prevalence in web development. It also takes advantage of people only knowing Javascript and their ability to create webpages. 
+It is performant, it stays updated, people maintain it so it stays updated. We can build isomorphic applications through it, it harbors many libraries(npm).
+
+Isomorphic Javascript programming is javascript applications running on both the client and the server side. 
+
+A small selection of companies that make use of Node.js are Ebay, LinkedIn, the New York Times, Trello, and Groupon. 
+
+Draw a diagram of a full-stack web application and its key components.
+
+https://github.com/donovanky/NodeJS/blob/master/fullstack_web_app.jpg
