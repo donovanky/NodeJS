@@ -1,0 +1,8 @@
+Q:What is npm and what does it do?
+A: NPM is the node package manager. This allows us to add packages to our node applications so that we may benefit from the advantages that particular package or packages may provide.
+Q:What kind of information does package.json hold?
+A: The package.json file stores the structure of our app. This structure includes the name of the file, version number, and may potentially an author or authors though our package.json file holds the packages our application uses. 
+Q:Google another Node package. Using the demo directory run npm install <theNameOfThePackage> --save. Check the contents of your package.json file to make sure that the dependencies list the name of the Node package.
+A: I chose to install the mongoDB package, since I have heard of it before. 
+
+https://github.com/donovanky/NodeJS/blob/master/blocNPMinstallMONGO.JPG
