@@ -17,4 +17,4 @@ sever.listen(port, (err) => {
 });
 
 
-fs.writeFileSync('hello-world.txt', 'Hello to this great world', 'utf8');
+fs.writeFile('hello-world.txt', 'Hello to this great world', 'utf8');
